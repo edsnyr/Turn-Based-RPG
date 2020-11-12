@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 083ec0e7e7007514d855076a1e247985, type: 3}
+  m_Name: The Other Guy
+  m_EditorClassIdentifier: 
+  maxHealth: 10
+  sprite: {fileID: 21300000, guid: f3db18e5d35980c4fbebde337062c14b, type: 3}
+  color: {r: 0.2783019, g: 0.3672068, b: 1, a: 1}
+  startingAttacks:
+  - {fileID: 11400000, guid: ed6991f67478fe849b8d979e8b091d74, type: 2}
+  - {fileID: 11400000, guid: e6ebcd580ba9e7b4b9a5842afd0439e4, type: 2}
+  - {fileID: 11400000, guid: eb98fd23afdd7934b920051d2f8f2839, type: 2}
+  startingRelics:
+  - {fileID: 11400000, guid: 616e79913fb12cf45b2504c0a9d1c771, type: 2}
